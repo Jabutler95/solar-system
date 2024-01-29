@@ -1,15 +1,13 @@
 import Continent from "./Continent"
-import Moon from "./Moon"
+
 
 const Planet = (props) => {
   return ( 
     <div>
-      {props.name} contains:
-      <Continent />
-      and has a moon named
-      <Moon />
-
+      {props.name} has a moon named:&nbsp;
+      {props.moon} 
     </div>
+    
   )
 }
 

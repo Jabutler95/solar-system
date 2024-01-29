@@ -5,7 +5,7 @@ import Galaxy from './Galaxy'
 function App() {
   return (
     <>
-      <Galaxy />
+      <Galaxy name={'Milky Way'} />
     </>
   )
 }

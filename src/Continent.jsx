@@ -4,6 +4,7 @@ const Continent = (props) => {
   return ( 
     <div>
       Continent is {props.name}
+      {/* <Country /> */}
     </div>
   )
 }
